@@ -10,7 +10,7 @@
  modified 25 Ago 2019
  by Francisco Ochando
  
- Using Arduino UNO
+ Using Arduino UNO with MPU6050, MCP2515
  MPU6050 IMU card
  Vcc - 3.3V
  SDA - A4
@@ -18,7 +18,12 @@
  GND - GND
  
  MCP2515 CAN card
+ Vcc - 5V
  CS - 10
+ SI - 11
+ SO - 12
+ SCK - 13
+ GND - GND
 
 */
 
