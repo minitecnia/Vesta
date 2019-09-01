@@ -1,9 +1,24 @@
 /*
  
+ CAN, IMU register using USB server
+
+ A simple CAN, IMU data USB server sends the value of the CAN frame 
+ and acceleration/angle input using an Arduino.
+
  created 25 Ago 2019
  by Francisco Ochando
  modified 25 Ago 2019
  by Francisco Ochando
+ 
+ Using Arduino UNO
+ MPU6050 IMU card
+ Vcc - 3.3V
+ SDA - A4
+ SCL - A5
+ GND - GND
+ 
+ MCP2515 CAN card
+ CS - 10
 
 */
 
