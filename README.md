@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo"/>
+</p>
+
 # openhw-milcan
 
 # Open hardware milcan
