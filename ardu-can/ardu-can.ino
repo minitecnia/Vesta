@@ -27,6 +27,8 @@
 
 */
 
+unsigned long time;
+
 void getAcc() {
   mpu.getAcceleration(&ax, &ay, &az);
   
@@ -85,6 +87,7 @@ void setup()
     Serial.println("# CAN BUS OK. Listening!");
     Serial.println("#");
     delay(3000);
+    time = millis();
 }
 
 void loop()
@@ -92,7 +95,10 @@ void loop()
     unsigned char len = 0;
     unsigned char buf[8];
 
-    printAcc();
+    if ((millis() - time)>500) {
+        printAcc();
+        time = millis(); 
+    } 
     if (gps.available())
     {
         char data;
