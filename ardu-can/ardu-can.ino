@@ -27,7 +27,12 @@
 
 */
 
+const byte TX = 3;
+const byte RX = 4;
+int ax, ay, az;
 unsigned long time;
+
+SoftwareSerial gps(RX,TX);
 
 void getAcc() {
   mpu.getAcceleration(&ax, &ay, &az);
