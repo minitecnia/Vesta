@@ -30,6 +30,13 @@
 void getAcc() {
   mpu.getAcceleration(&ax, &ay, &az);
   
+  float ax_ = ax;
+  float ay_ = ay;
+  float az_ = az;
+  float agx = ax_/4096;
+  float agy = ay_/4096;
+  float agz = az_/4096;
+ 
   // Send results
   Serial.print("{'eID':'Acceleration','X':'");
   Serial.print(ax);
