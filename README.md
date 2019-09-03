@@ -2,7 +2,7 @@
 <img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo" width=50% height=50% />
 </p>
 
-# Openhw-Milcan
+# OShw-Milcan
 
 # Open hardware milcan
 
