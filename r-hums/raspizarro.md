@@ -10,14 +10,16 @@ This guide will tell you how to get your Raspberry Pi to host a web-server to ho
 
 $ sudo apt-get update -y
 
-# Install NodeJS onto the Pi and check installation
+# Install NodeJS onto the Pi and check installation
 
 $ sudo apt-get install nodejs -y
+
 $ nodejs -v
 
 # Install NPM and check installation
 
 $ sudo apt-get install npm -y
+
 $ npm -v
 
 # Install the Express and Express generator
