@@ -10,15 +10,15 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 After first time boot up, do an update and upgrade:
 
-sudo apt-get update 
+$ sudo apt-get update 
 
-sudo apt-get upgrade 
+$ sudo apt-get upgrade 
 
-sudo reboot
+$ sudo reboot
 
 Add the overlays by:
 
-sudo nano /boot/config.txt
+$ sudo nano /boot/config.txt
 
 Add these 3 lines to the end of file:
 
@@ -30,7 +30,7 @@ dtoverlay=spi-bcm2835-overlay
 
 Reboot Rpi-hums:
 
-sudo reboot
+$ sudo reboot
 
 
 # Installing Web Server onto the Pi for remote access
