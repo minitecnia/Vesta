@@ -23,6 +23,7 @@ $ npm -v
 # Install the Express and Express generator
 
 $ sudo npm install express -g
+
 $ sudo npm install express-generator -g
 
 # Run the Express generator
