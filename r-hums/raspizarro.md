@@ -4,17 +4,34 @@
 
 # Rpi-hums installation
 
+Download the latest Raspbian image from:
+
+https://www.raspberrypi.org/downloads/raspbian/
+
+After first time boot up, do an update and upgrade:
+
 sudo apt-get update 
+
 sudo apt-get upgrade 
+
 sudo reboot
+
 Add the overlays by:
+
 sudo nano /boot/config.txt
+
 Add these 3 lines to the end of file:
+
 dtparam=spi=on 
+
 dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25 
+
 dtoverlay=spi-bcm2835-overlay
+
 Reboot Rpi-hums:
+
 sudo reboot
+
 
 # Installing Web Server onto the Pi for remote access
 
