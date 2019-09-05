@@ -2,6 +2,20 @@
 <img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo" width=50% height=50% />
 </p>
 
+# Rpi-hums installation
+
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo reboot
+Add the overlays by:
+sudo nano /boot/config.txt
+Add these 3 lines to the end of file:
+dtparam=spi=on 
+dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25 
+dtoverlay=spi-bcm2835-overlay
+Reboot Rpi-hums:
+sudo reboot
+
 # Installing Web Server onto the Pi for remote access
 
 This guide will tell you how to get your Raspberry Pi to host a web-server to host online services. 
