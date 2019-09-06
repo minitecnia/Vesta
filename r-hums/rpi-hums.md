@@ -32,22 +32,21 @@ Reboot Rpi-hums:
 
 $ sudo reboot
 
-
 # Installing Web Server onto the Pi for remote access
 
 This guide will tell you how to get your Raspberry Pi to host a web-server to host online services. 
 
-# Ensure Pi is up to date
+Ensure Pi is up to date
 
 $ sudo apt-get update -y
 
-# Install NodeJS onto the Pi and check installation
+Install NodeJS onto the Pi and check installation
 
 $ sudo apt-get install nodejs -y
 
 $ nodejs -v
 
-# Install NPM and check installation
+Install NPM and check installation
 
 $ sudo apt-get install npm -y
 
@@ -59,7 +58,7 @@ $ sudo npm install express -g
 
 $ sudo npm install express-generator -g
 
-# Run the Express generator
+Run the Express generator
 
 This creates a folder with the necessary files needed for express to run. The default view engine will be Pug.
 
