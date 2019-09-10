@@ -2,7 +2,7 @@
 <img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo" width=50% height=50% />
 </p>
 
-# OShw-Milcan (Open source hardware milcan platform)
+# Oshw-Milcan (Open source hardware milcan platform)
 
 Openhw-milcan includes developed software and hardware using COTS for CAN utils purposes.This project has two platforms, the first is an open platform for getting CAN messages, GPS and IMU signals, the second platform includes an open platform for getting and registering CAN messages and IMU signals.
 
