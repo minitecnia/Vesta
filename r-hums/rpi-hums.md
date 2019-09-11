@@ -8,6 +8,20 @@ Download the latest Raspbian image from:
 
 https://www.raspberrypi.org/downloads/raspbian/
 
+# RTC installation
+
+$ sudo nano /boot/config.txt
+
+Add lines:
+
+dtparam=i2c_arm=on
+
+dtoverlay=i2c-rtc,ds3231
+
+$ sudo nano /etc/modprobe.d/raspi-blacklist.conf
+
+
+
 After first time boot up, do an update and upgrade:
 
 $ sudo apt-get update 
