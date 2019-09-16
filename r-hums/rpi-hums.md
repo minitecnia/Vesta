@@ -46,6 +46,16 @@ Reboot Rpi-hums:
 
 $ sudo reboot
 
+# Installing I2C MPU6050 IMU
+
+$ sudo nano /etc/modules
+
+If not present, add
+
+i2c-bcm2708
+
+i2c-dev
+
 # Installing Web Server onto the Pi for remote access
 
 This guide will tell you how to get your Raspberry Pi to host a web-server to host online services. 
