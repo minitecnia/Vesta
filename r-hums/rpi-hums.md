@@ -50,7 +50,7 @@ $ sudo reboot
 
 $ sudo nano /etc/modules
 
-If not present, add
+If not present, add next lines:
 
 i2c-bcm2708
 
