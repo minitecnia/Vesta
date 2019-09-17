@@ -104,7 +104,7 @@ Utilizing the default port, open a web browser and navigate to:
 
 http://localhost:3000
 
-# Installing Raspberry Pi monitoring panel
+# Installing RPi-Hums monitoring panel
 
 $ cd PIzarro
 
