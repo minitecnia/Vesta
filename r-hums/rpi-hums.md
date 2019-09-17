@@ -103,3 +103,11 @@ $ sudo express Raspizarro
 Utilizing the default port, open a web browser and navigate to:
 
 http://localhost:3000
+
+# Installing Raspberry Pi monitoring panel
+
+$ cd PIzarro
+
+Follow next procedure:
+
+https://github.com/GeekyTheory/Raspberry-Pi-Status
