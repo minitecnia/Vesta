@@ -46,6 +46,18 @@ dtparam=i2c_arm=on
 
 dtoverlay=i2c-rtc,ds3231
 
+# Configure RTC
+
+Disabling the fake hardware clock
+
+$ sudo apt-get -y remove fake-hwclock
+
+$ sudo update-rc.d -f fake-hwclock remove
+
+$ sudo nano /lib/udev/hwclock-set
+
+Comment rule:
+
 # Installing I2C MPU6050 IMU
 
 $ sudo nano /etc/modules
