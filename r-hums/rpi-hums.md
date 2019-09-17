@@ -98,7 +98,7 @@ Run the Express generator
 
 This creates a folder with the necessary files needed for express to run. The default view engine will be Pug.
 
-$ sudo express Raspizarro
+$ sudo express PIzarro
 
 Utilizing the default port, open a web browser and navigate to:
 
