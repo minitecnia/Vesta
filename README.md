@@ -2,9 +2,9 @@
 <img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo" width=50% height=50% />
 </p>
 
-# Oshw-Milcan (Open source hardware milcan platform)
+# Vesta (Vehicular system and Telemetry Analysis)
 
-Openhw-milcan includes developed software and hardware using COTS for CAN utils purposes.This project has two platforms, the first is an open platform for getting CAN messages, GPS and IMU signals, the second platform includes an open platform for getting and registering CAN messages and IMU signals.
+Vesta platform includes developed software and hardware using COTS for CAN utils purposes and data analysis. This project includes two developments. The first is an open platform for registering logistic data, CAN messages, sensor data, data treatment and analysis software. The second development includes an open platform for getting CAN messages, IMU signals and sensor data across heterogeneous networks.
 
 # Ardu-can
 This project is a USB sensor gateway for registering CAN data, GPS and IMU signals. This uses an Arduino platform as a gateway. Data registering is activated while USB interface is connected, using a software broker in a linux platform.
