@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/minitecnia/openhw-milcan/blob/master/logo-minitecnia.jpg" alt="SocketCAN logo" width=50% height=50% />
+<img src="https://es.wikipedia.org/wiki/(4)_Vesta#/media/Archivo:Vesta_full_mosaic.jpg" alt="SocketCAN logo" width=50% height=50% />
 </p>
 
 # Vesta (Vehicular system and Telemetry Analysis)
