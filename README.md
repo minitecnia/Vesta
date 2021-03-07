@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Vesta_full_mosaic.jpg" alt="Vesta logo" width=50% height=50% />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Vesta_Rotation.gif" alt="Vesta logo" width=50% height=50% />
 </p>
 
 # Vesta (Vehicular system and Telemetry Analysis)
