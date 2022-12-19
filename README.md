@@ -6,12 +6,14 @@
 
 Vesta platform includes developed software and hardware using COTS for CAN utils purposes and data analysis. This project includes two developments. The first is an open platform for registering logistic data, CAN messages, sensor data, data treatment and analysis software. The second development includes an open platform for getting CAN messages, IMU signals and sensor data across heterogeneous networks.
 
-# Ardu-can
+# Arducan
 This project is a USB sensor gateway for registering CAN data, GPS and IMU signals. This uses an Arduino platform as a gateway. Data registering is activated while USB interface is connected, using a software broker in a linux platform.
 # arducan-reader
 Software broker implemented in python.
 
-# Raspi-can
+# Rapican
+
+# Owa
 
 # TTEthernet over Raspberry
 Yo can enable True Time Ethernet with Ethercat in <a href=https://github.com/thanhtam-h/soem-w5500-rpi>EtherCAT with w5500</a>
